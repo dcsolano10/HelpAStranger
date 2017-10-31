@@ -27,7 +27,7 @@ class PostViewer extends Component {
         )
     }
 }
-
+{/* Se evidencia modularidad en el código, podrían mejorar un poco la posición de los comentarios en el index */}
 PostViewer.propTypes = {
     addpost : PropTypes.func.isRequired,
     vote : PropTypes.func.isRequired,
